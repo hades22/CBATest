@@ -57,13 +57,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Output\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Input\Words.txt" />
-    <Content Include="Output\average_length_of_words_starting_with_aA.txt" />
-    <Content Include="Output\count_of_bB_in_words_starting_with_eE.txt" />
-    <Content Include="Output\count_of_sequence_of_words_starting_withs_cC_and_aA.txt" />
-    <Content Include="Output\longest_words_starting_with_abc.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
